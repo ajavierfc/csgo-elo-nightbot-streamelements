@@ -58,3 +58,7 @@ You need to delete the previous command; in Nightbot this would be `!delcom !elo
 *Last game stats (usage: !checkstats s1mple)*
 
 `!addcom -cd=5 !checkstats $(eval const api = $(urlfetch json http://api.faceit.myhosting.info:81/?n=$(touser)); if (api.error) {api.message;} else { '$(user) last $(touser) match stats -> ' + api.last_match })`
+
+## More info
+
+Visit: https://community.nightdev.com/t/customapi-faceit-last-games-matches-api/28513
