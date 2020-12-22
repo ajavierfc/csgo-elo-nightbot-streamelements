@@ -1,4 +1,4 @@
-# CSGO elo, last matches, last stats from faceit commands for Nightbot and Streamelements bots
+# Commands for Nightbot and Streamelements to get CSGO elo, last matches, last stats from faceit 
 Commands for the Nightbot and Streamelements chat bots to get CSGO elo, last matches and last stats, from faceit platform.
 
 
