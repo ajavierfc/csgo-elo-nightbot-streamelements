@@ -71,7 +71,7 @@ You need to delete the previous command; in Nightbot this would be `!delcom !elo
 
 I've included translations for some language, to get it translated add "l=YOUR_LANGUAGE_CODE&" in the url.
 
-*URL should look like this"
+*URL should look like this*
 
 `http://api.faceit.myhosting.info:81/?l=YOUR_LANGUAGE_CODE&n=YOUR_FACEIT_USER&f=plain&o=stats)`
 
