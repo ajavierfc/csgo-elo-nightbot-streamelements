@@ -73,7 +73,7 @@ I've included translations for some language, to get it translated add "l=YOUR_L
 
 *URL should look like this*
 
-`http://api.faceit.myhosting.info:81/?l=YOUR_LANGUAGE_CODE&n=YOUR_FACEIT_USER&f=plain&o=stats)`
+`http://api.faceit.myhosting.info:81/?l=YOUR_LANGUAGE_CODE&n=YOUR_FACEIT_USER&f=plain&...`
 
 Available languages are, at this moment: es (for spanish), en (for english), no (for norwegian)
 
