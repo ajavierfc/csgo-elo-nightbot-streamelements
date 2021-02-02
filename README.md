@@ -59,6 +59,24 @@ You need to delete the previous command; in Nightbot this would be `!delcom !elo
 
 `!addcom -cd=5 !checkstats $(eval const api = $(urlfetch json http://api.faceit.myhosting.info:81/?n=$(touser)); if (api.error) {api.message;} else { '$(user) last $(touser) match stats -> ' + api.last_match })`
 
+
+## Other commands requested by users
+
+*Full data*
+
+`!command add !stats ${user} stats from my last match $(eval const api = $(urlfetch json http://api.faceit.myhosting.info:81/?n=YOUR_FACEIT_USER); if (api.error) {api.message;} else { '$(user) --> Lvl '+ api.level +': '+ api.elo +' << '+ api.report +' << '+ api.trend +' << Last game stats: ' + api.last_match })`
+
+
+## Language
+
+I've included translations for some language, to get it translated add "l=YOUR_LANGUAGE_CODE&" in the url.
+
+*URL should look like this"
+
+`http://api.faceit.myhosting.info:81/?l=YOUR_LANGUAGE_CODE&n=YOUR_FACEIT_USER&f=plain&o=stats)`
+
+Available languages are, at this moment: es (for spanish), en (for english), no (for norwegian)
+
 ## More info and support
 
 https://community.nightdev.com/t/customapi-faceit-last-games-matches-api/28513
